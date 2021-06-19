@@ -5,5 +5,57 @@
 }
 
 .header{
+    margin-top: 0;
+    display: flex;
     grid-column: 1/3;
+    height: 53px;
+    font-family: 'Lobster Two', cursive;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    width: 100%;
+}
+
+.ins{
+    font-size: 23px;
+    padding-left: 150px;
+    padding-right: 210px;
+    
+}
+
+.searchbox{
+    padding-right: 170px;    
+}
+
+.home{
+    padding-right: 28px;
+}
+
+.mess{
+    padding-right: 20px;
+}
+
+.mess > .material-icons{
+    transform: rotate(-30deg);
+    height: 38px;
+
+}
+
+.compass{
+    padding-right: 20px;
+}
+
+.notify{
+    padding-right: 20px;
+    font-size: 20px;
+    height: 28px;
+}
+
+.info{
+        background-image: url(./pic2.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 1px solid #0F1C3F;
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
 }
