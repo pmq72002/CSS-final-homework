@@ -35,13 +35,14 @@
         width: 54px;
         transform: translate(-2px,-2px);
 }
-.carousel-control-prev-icon{
+.main .carousel-control-prev-icon{
         margin-left: -67px;
         background-color: #ddd;
         margin-top: 28px;
+
     }
 
-.carousel-control-next-icon{
+.main .carousel-control-next-icon{
     margin-right: -67px;
     background-color: #ddd;
     margin-top: 28px;
