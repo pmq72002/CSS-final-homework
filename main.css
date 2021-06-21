@@ -4,6 +4,13 @@
     margin: 0 150px;
 }
 
+.carousel-inner{
+    display: flex;
+    margin-top: 26px;
+    align-items: center;
+    height: 150px;   
+}
+
 .story{
     display: flex;
     border: 1px solid #ddd;
@@ -26,9 +33,19 @@
         border-radius: 50%;
         height: 54px;
         width: 54px;
-        transform: translate(-3px,-3px);
+        transform: translate(-2px,-2px);
 }
+.carousel-control-prev-icon{
+        margin-left: -67px;
+        background-color: #ddd;
+        margin-top: 28px;
+    }
 
+.carousel-control-next-icon{
+    margin-right: -67px;
+    background-color: #ddd;
+    margin-top: 28px;
+}
 
 .newfeed{
     border: 1px solid #ddd;
